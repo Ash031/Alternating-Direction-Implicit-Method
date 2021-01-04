@@ -1,3 +1,7 @@
+/**
+   * Code based on the book "GPU Computing Gems Jade Edition"
+   */
+
 #include "tridiagonalSolvers.h"
 cudaEvent_t start, stop;
 /**
