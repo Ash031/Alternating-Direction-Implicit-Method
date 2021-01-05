@@ -15,4 +15,4 @@ $(BUILD)Helper.o:
 	$(CC) $(INCLUDES) $(FLAGS) src/Helper.cu -c -o build/Helper.o
 	
 clean:
-	rm ./main bin/*
+	rm ./main build/*
